@@ -1,0 +1,29 @@
+<!--pages/index/index2.wxml-->
+<text>输入ip并点击图标呼叫空闲的机器人</text>
+
+
+<view class="menu">
+  <view class="item" bindtap="clickme" data-ip="192.168.143.158">
+    <image src="picture/testpicture.png"></image>
+    <text>机器人1号</text>
+  </view>
+  <!--<input placeholder="请输入机器人ip地址" bindinput="IPinput"/>-->
+</view>
+
+
+<view class="menu2">
+  <view class="item" bindtap="clickme" data-ip="192.168.3.238">
+    <image src="picture/testpicture.png"></image>
+    <text>机器人2号</text>
+  </view>
+  <!--<input placeholder="请输入机器人ip地址" bindinput="IPinput"/>-->
+</view>
+
+
+<view class="menu3">
+  <view class="item" bindtap="clickme">
+    <image src="picture/testpicture.png"></image>
+    <text>机器人3号</text>
+  </view>
+  <!--<input placeholder="请输入机器人ip地址" bindinput="IPinput"/>-->
+</view>

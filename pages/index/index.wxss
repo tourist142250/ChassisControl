@@ -1,0 +1,33 @@
+/* pages/index/index2.wxss */
+image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.menu{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menu2{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menu3{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

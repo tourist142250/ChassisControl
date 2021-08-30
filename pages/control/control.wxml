@@ -1,0 +1,11 @@
+<!--pages/control/control.wxml-->
+<text>控制台</text>
+
+<button open-type='getUserInfo' bindtap="receivelist">获取导航点列表</button>
+
+
+<view wx:for="{{goallist}}">{{index}}
+  <button bindtap="guide" type="primary" data-value="{{index}}">
+  到<text>{{index}}</text>
+  </button>
+</view>
